@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head><script src="site/gdprscript.js?buildTime=1568932596&hasRemindMe=true&stealth=false"></script>
+		<title>Research - Liwei Lin &#26519;&#21147;&#34074;</title><meta property="og:site_name" content="Liwei Lin &#26519;&#21147;&#34074;" />
+<meta property="og:title" content="Research" />
+<meta property="og:description" content="Specialized Decision Surface and Disentangled Feature for Weakly-Supervised Polyphonic Sound Event Detection   Note: This paper is currently submitted to Transactions on Audio, Speech and Language..." />
+<!--<meta property="og:image" content="https://cdn2.editmysite.com/images/site/footer/og-image-placeholder-blank.png" />-->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0;">-->
+
+		
+<link id="wsite-base-style" rel="stylesheet" type="text/css" href="css/sites.css?buildTime=1568932596" />
+<link rel="stylesheet" type="text/css" href="css/fancybox.css?1568932596" />
+<link rel="stylesheet" type="text/css" href="css/social-icons.css?buildtime=1568932596" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="css/main_style.css?1569141014" title="wsite-theme-css" />
+<!--
+<link href='//fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<link href='//fonts.googleapis.com/css?family=Actor&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Amaranth:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Actor&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Actor&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+-->
+<style type='text/css'>
+
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Actor" !important;letter-spacing: 0px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Amaranth" !important;letter-spacing: 5px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {text-transform:  none !important;letter-spacing: 1px !important;}
+.wsite-menu-default a {font-family:"Karla" !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {font-family:"Actor" !important;}
+.fancybox-title {}
+.wslide-caption-text {font-family:"Actor" !important;}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Vollkorn" !important;font-weight:400 !important;font-style:normal !important;letter-spacing: 0px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:15px !important;line-height:29px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:21px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {font-size:16px !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:40px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:11px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {font-size:26px !important;}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/1/2/7/3/127398205/background-images/1928251627.jpeg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+</style>
+	</head>
+	<body class="no-header-page  wsite-page-research  full-width-off  wsite-theme-light"><!-- header-wrap -->
+	<div id="header-wrap">
+		<div id="header" class="content-wrap container">
+			<label id="nav-trigger" class="hamburger" for="mobile-trigger"></label>
+			<div id="logo"><span class="wsite-logo">
+
+	<a href="/">
+	
+	<span id="wsite-title">Liwei Lin &#26519;&#21147;&#34074;</span>
+	
+	</a>
+
+</span></div>
+			<div id="header-right">
+				<div id="nav" class="nav"><ul class="wsite-menu-default">
+		<li id="pg568995001670860113" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="research.html"
+				class="wsite-menu-item"
+				>
+				Research
+			</a>
+			
+		</li>
+</ul>
+</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header-wrap -->
+
+	<div id="wrapper">
+		<div id="wrapper-content">
+			<div id="navmobile" class="nav"><ul class="wsite-menu-default">
+		<li id="pg568995001670860113" class="wsite-menu-item-wrap">
+			<a
+						href="/"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="/research.html"
+				class="wsite-menu-item"
+				>
+				Research
+			</a>
+			
+		</li>
+</ul>
+</div>
+
+			<div id="main-content">
+
+				<div id="main-wrap" class="content-wrap">
+					<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-3 wsite-custom-background"  >
+		<div class="wsite-section-content">
+						<div class="container">
+			<div class="wsite-section-elements">
+				<h2 class="wsite-content-title">Publications</h2>
+
+<div class="paragraph"><font size="4" style="font-weight:700"><a href="https://arxiv.org/abs/1905.10091" target="_blank"><font color="#24678d">Specialized Decision Surface and Disentangled Feature for Weakly-Supervised Polyphonic Sound Event Detection</font></a><font color="#3387a2">&nbsp;</font></font><br />Note: This paper is currently submitted to Transactions on Audio, Speech and Language Processing<br />Abstract:&nbsp;<br /><span style="color:rgb(0, 0, 0)">Sound event detection (SED) consists in recognizing the presence of sound events in the segment of audio and detecting their onset as well as offset. In this paper, we focus on two common problems on SED: how to carry out efficient weakly-supervised learning and how to learn better from the unbalanced dataset in which multiple sound events often occur in co-occurrence.&nbsp;</span><br /><span style="color:rgb(0, 0, 0)">We approach SED as a multiple instance learning (MIL) problem and utilize a neural network framework with different pooling modules to solve it. General MIL approaches includes two approaches: the instance-level approach and the embedding-level approach. Since the embedding-level approach tends to perform better than the instance-level approach in terms of bag-level classification but can not provide instance-level probabilities, we present how to generate instance-level probabilities for it. Moreover, we further propose a specialized decision surface (SDS) for the embedding-level attention pooling. We analyze and explained why an embedding-level attention module with SDS is better than other typical pooling modules from the perspective of the high-level feature space. As for the problem of unbalanced dataset and the co-occurrence of multiple categories in the polyphonic event detection task, we propose a disentangled feature (DF) to reduce interference among categories, which optimizes the high-level feature space by disentangling it based on class-wise identifiable information and obtaining multiple different subspaces. Experiments on the dataset of DCASE 2018 Task 4 show that the proposed SDS and DF significantly improve the detection performance of the embedding-level MIL approach with an attention pooling module and outperform the first place system in the challenge by 6.2 percentage points.</span><br /><br /><br /><font size="4" style="font-weight:700"><a href="https://arxiv.org/abs/1906.02517" target="_blank"><font color="#24678d">Guided Learning for the combination of weakly-supervised and semi-supervised learning</font></a><font color="#3387a2">&nbsp;</font></font><br /><span>Note: This paper is currently being revised.</span><br /><span>Abstract:&nbsp;</span><br /><span style="color:rgb(0, 0, 0)">We propose a simple but efficient method to combine semi-supervised learning with weakly-supervised learning for deep neural networks. Weakly-supervised learning is to solve the task which requires fine-level prediction with only coarse-level annotations available. Designing deep neural networks for weakly-supervised learning is always accompanied by a trade-off between fine-level information detection performance and coarse-level classification accuracy. While combining weakly-supervised learning with semi-supervised learning using unlabeled data, in contrast to seeking for this trade-off, we design two different models for different targets. One merely pursues finer information detection performance as the final target, while another one is more professional in achieving higher coarse-level classification accuracy so that it is regarded as a more professional teacher to teach the former model using unlabeled data. We present an end-to-end semi-supervised learning process termed Guided Learning for these two different models to improve the training efficiency. Our approach outperforms the first place result on DCASE2018 Task 4 which employs Mean Teacher with a well-design CRNN network from 32.4% to 38.9%, achieving state-of-the-art performance.<br /><br />&#8203;</span><br /><strong><font color="#24678d" size="4"><a href="https://arxiv.org/abs/1909.06178" target="_blank"><font color="#24678d">Guided Learning convolution system for DCASE 2019 task4</font>&#8203;</a></font></strong><br /><span>Note: This paper is accepted by DCASE2019 Workshop</span><br /><span>Abstract:&nbsp;</span><br /><span style="color:rgb(0, 0, 0)">In this paper, we describe in detail the system we submitted to DCASE2019 task 4: sound event detection (SED) in domestic environments. We employ a convolutional neural network (CNN) with an embedding-level attention pooling module to solve it. By considering the interference caused by the co-occurrence of multiple events in the unbalanced dataset, we utilize the disentangled feature to raise the performance of the model. To take advantage of the unlabeled data, we adopt Guided Learning for semi-supervised learning. A group of median filters with adaptive window sizes is utilized in the post-processing of output probabilities of the model. We also analyze the effect of the synthetic data on the performance of the model and finally achieve an event-based F-measure of 45.43% on the validation set and an event-based F-measure of 42.7% on the test set. The system we submitted to the challenge achieves the best performance compared to those of other participates.</span><br /><br /></div>
+			</div>
+		</div>
+					</div>
+
+	</div>
+</div>
+
+</div>
+
+				</div>
+				<!-- end main-wrap -->
+
+				<!-- footer-wrap -->
+				<div id="footer-wrap">
+
+<style type="text/css">
+	@font-face {
+		font-family: SQMarket-Medium;
+		font-style: normal;
+		font-weight: 500;
+		src:
+			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff2") format("woff2"),
+			url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff") format("woff");
+	}
+</style>
+
+<!--<div id="weebly-footer-signup-container-v3">
+	<a
+		href="https://www.weebly.com/signup?utm_source=internal&utm_medium=footer"
+		target="_blank"
+		class="signup-container-header"
+		id="signup-link-href"
+	>
+		<div class="powered-by">
+			<div class="footer-published-ab-powered-by">
+				Powered by <span class="link weebly-icon"></span>
+				<img class="footer-ab-published-toast-image" src="//cdn2.editmysite.com/images/site/footer/footer-toast-published-image-1.png">
+				<span class="footer-ab-published-toast-text">Create your own unique website with customizable templates.</span>
+				<span class="footer-ab-published-toast-button-wrapper">
+					<button class="footer-published-ab-button">Get Started</button>
+				</span>
+			</div>
+		</div>
+	</a>
+</div>-->
+
+
+</div>
+				<!-- end footer-wrap -->
+
+			</div>
+		</div>
+	</div>
+	<!-- end wrapper -->
+
+	<!-- JavaScript -->
+
+
+
+
+
+
+	</body>
+</html>
