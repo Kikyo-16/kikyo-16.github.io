@@ -1,0 +1,12 @@
+.my_home_css{ width:90%;}
+
+.info_css{ width:30%; float:left; margin-right:5%; }
+.info_photo_css{ margin-bottom:6%; width:98%;}
+.info_contact_css{ width:98%; text-align:justify;}
+.contact_title_css{ font-weight: bold; font-size:1.5vw; }
+.contact_content_css{ font-size:1vw;}
+.contact_content_value_css{ font-size:1vw; color:#483D8B;}
+
+.bio_css{ width:65%; float:left;}
+.bio_name_css{ width:100%; font-weight: bold; font-size:2.2vw; color:#483D8B; padding-bottom:4%; text-align:left;}
+.bio_content_css{ width:100%; font-size:1vw; text-align:justify;}

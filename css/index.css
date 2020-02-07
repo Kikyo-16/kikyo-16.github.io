@@ -1,0 +1,10 @@
+.bd_css{ background-color:#5F9EA0; text-align:center;}
+.content_css{ padding:3.5%;margin:0 auto; background-color:#FFFFFF; width:960px; height:960px;}
+.menu_css{ width:100%; margin-bottom:8%;}
+.my_name_css{ width:50%; float:left; font-weight: bold; font-size:2.5vw; text-align:left;}
+.my_menu_css{ width:50%; float:right; font-size:1.5vw; }
+.my_sub_menu_css{ width:auto; float:right; margin:5%;}
+.my_sub_menu_css:hover{ cursor:pointer; font-size:1.7vw; color:#CCCCFF; }
+.menu_bar_css{ width:100%; border-top-style:ridge; border-top-color:#CCCCFF; border-top-color:5px; }
+
+.my_content_css{ width:100%; margin-top:3%; padding-left:5%; padding-right:5%; }

@@ -1,0 +1,17 @@
+To understand the inner logic of the world and pursue the truth​,  I devote myself into computer science.
+<br /><br />
+I am currently pursuing an M.E. degree in Computer Science and Technology at Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China. I received a B.E. degree in Computer Science and Technology from China Agricultural University, Beijing, China, in 2017.
+<br /><br />
+My research interest includes audio signal processing and machine learning. 
+<br /><br />
+Recently, I focus on weakly-labeled semi-supervised sound event detection (SED).  Here are some works I have done: 
+<br /><br />
+Weakly-labeled SED:<br />
+<a href="https://arxiv.org/abs/1905.10091">Specialized Decision Surface and Disentangled Feature for Weakly-Supervised Polyphonic Sound Event Detection</a>
+<br /><br />
+Weakly-labeled semi-supervised learning:<br />
+<a href="https://arxiv.org/abs/1906.02517">Guided learning for weakly-labeled semi-supervised sound event detection</a>
+<br /><br />
+I also participated in  <a href="http://dcase.community/challenge2019/task-sound-event-detection-in-domestic-environments">DCASE2019 Challenge task4</a>  and got  the first place. My technical report about the task can be available <a href="http://dcase.community/documents/challenge2019/technical_reports/DCASE2019_Lin_25.pdf">here</a>. I release my <a href="https://github.com/Kikyo-16/Sound_event_detection">source code</a> to reproduce our experiments.
+<br /><br />
+Please don't hesitate to contact me should you are interested in our research and have any question.
