@@ -1,8 +1,8 @@
 .my_home_css{ width:90%;}
 
 .info_css{ width:30%; float:left; margin-right:5%; overflow:hidden;}
-.info_photo_css{ margin-bottom:6%; width:98%; overflow:hidden;}
-.info_contact_css{ width:98%; text-align:justify; overflow:hidden;}
+.info_photo_css{ margin-bottom:6%; width:100%; overflow:hidden; }
+.info_contact_css{ width:100%; text-align:justify; overflow:hidden;}
 .contact_title_css{ font-weight: bold; font-size:100%; overflow:hidden;}
 .contact_content_css{ font-size:90%; overflow:hidden;}
 .contact_content_value_css{ font-size:90%; color:#483D8B; overflow:hidden;}
