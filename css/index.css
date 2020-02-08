@@ -1,10 +1,16 @@
 .bd_css{ background-color:#5F9EA0; text-align:center;}
-.content_css{ padding:3.5%;margin:0 auto; background-color:#FFFFFF; width:900px; height:200%;}
-.menu_css{ width:100%; margin-bottom:8%;}
-.my_name_css{ width:50%; float:left; font-weight: bold; font-size:2.5vw; text-align:left;}
-.my_menu_css{ width:50%; float:right; font-size:1.5vw; }
-.my_sub_menu_css{ width:auto; float:right; margin:5%;}
-.my_sub_menu_css:hover{ cursor:pointer; font-size:1.7vw; color:#CCCCFF; }
-.menu_bar_css{ width:100%; border-top-style:ridge; border-top-color:#CCCCFF; border-top-color:5px; }
+.main_css{ margin:0 auto;  width:1080px; overflow:hidden;}
 
-.my_content_css{ width:100%; margin-top:3%; padding-left:5%; padding-right:5%; }
+.menu_css{ width:1080px; height:100px; position:fixed; top:0; }
+.menu_item_css{ width:100%; overflow:hidden; border-bottom-color:#CCCCFF; border-bottom-color:5px; border-bottom-style:ridge; padding-top:3%; background-color:#FFFFFF; }
+.my_name_css{ padding-left:2%; width:48%; float:left; font-weight: bold; font-size:200%; text-align:left;}
+.my_menu_css{ width:50%; overflow:hidden; float:right; font-size:120%; }
+.my_sub_menu_css{ width:auto; overflow:hidden; float:right; margin:5%;}
+.my_sub_menu_css:hover{ cursor:pointer; overflow:hidden; font-size:130%; color:#CCCCFF; }
+.menu_bar_css{ width:100%; border-top-color:#CCCCFF; border-top-color:5px; border-top-style:ridge; }
+
+.content_css{ padding:3.5%; margin:0 auto; background-color:#FFFFFF; width:960px; overflow:hidden;  }
+
+.adapt_css{ width:960px; overflow:hidden; padding-top:100px;}
+
+.my_content_css{ width:100%; overflow:hidden; margin-top:3%; padding-left:5%; padding-right:5%; margin-bottom:5%; }

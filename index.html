@@ -6,30 +6,35 @@
         <link rel = "stylesheet" type = "text/css" href = "css/research_temp.css" />
 	</head>
     <body class = "bd_css">
-
-        <div id = "content" class = "content_css">
+        <div class = "main_css">
             <div id = "menu" class = "menu_css">
-                <div id = "my_name" class = "my_name_css">
-                    Liwei Lin &#26519;&#21147;&#34074;
-                </div>
-                <div id = "my_menu" class = "my_menu_css">
-
-                    <div id = "research" class = "my_sub_menu_css">
-            				PUBLICATIONS
+                <div class = "menu_item_css">
+                    <div id = "my_name" class = "my_name_css">
+                        Liwei Lin &#26519;&#21147;&#34074;
                     </div>
-                    <div id = "home" class = "my_sub_menu_css">
-            				HOME
+                    <div id = "my_menu" class = "my_menu_css">
+                        <div id = "research" class = "my_sub_menu_css">
+                            PUBLICATIONS
+                        </div>
+                        <div id = "home" class = "my_sub_menu_css">
+                        HOME
+                        </div>
                     </div>
                 </div>
+                <div class = "menu_bar_css">&nbsp;</div>
             </div>
-            <div class = "menu_bar_css">&nbsp;</div>
-            <div id = "my_content" class = "my_content_css">
-                <div id = "my_home_temp"></div>
-                <div id = "my_research_temp" style="display:none"></div>
+            <div id = "content" class = "content_css">
+
+                <div class = "adapt_css">
+
+
+                    <div id = "my_content" class = "my_content_css">
+                        <div id = "my_home_temp"></div>
+                        <div id = "my_research_temp" style="display:none"></div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
     </body>
 
 
@@ -75,7 +80,7 @@
 		    var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
 		    var openTip = oOpenTip || "";
 		    var shutTip = oShutTip || "";
-		    if(targetObj.style.display!="none"){
+		    if(targetObj.style.display=="block"){
 			    if(shutAble) return;
 			    targetObj.style.display="none";
 			    if(openTip  &&  shutTip){

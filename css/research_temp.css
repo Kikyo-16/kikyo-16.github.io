@@ -1,6 +1,6 @@
-.my_research_css{ width:90%; text-align:left;}
-.research_title_css{ width:100%; font-weight: bold; font-size:1.5vw; color:#483D8B}
-.research_author_css{ width:auto; font-size:1vw; }
-.research_note_css{ width:100%; font-size:1vw;}
-.research_link_css{ width:100%; font-size:1vw;}
-.research_abstract_css{ width:100%; font-size:0.9vw; text-align:justify; display:none;}
+.my_research_css{ width:90%; text-align:left; overflow:hidden;}
+.research_title_css{ width:100%; font-weight: bold; font-size:120%; color:#483D8B; overflow:hidden;}
+.research_author_css{ width:auto; font-size:100%; overflow:hidden;}
+.research_note_css{ width:100%; font-size:100%; overflow:hidden;}
+.research_link_css{ width:100%; font-size:100%; overflow:hidden;}
+.research_abstract_css{ width:100%; font-size:90%; text-align:justify; display:none; overflow:hidden;}
