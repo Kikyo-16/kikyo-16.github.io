@@ -1,4 +1,8 @@
-[
+[{"title":"Specialized Decision Surface and Disentangled Feature for Weakly-Supervised Polyphonic Sound Event Detection",
+"author":"Liwei Lin, Xiangdong Wang, Hong Liu, Yueliang Qian",
+"note":"This paper is accepted by TASLP.",
+"link":"https://arxiv.org/abs/1905.10091",
+"abstract":"In this paper, "},
 {"title":"Guided Learning for Weakly-labeled Semi-supervised Sound Event Detection",
 "author":"Liwei Lin, Xiangdong Wang, Hong Liu, Yueliang Qian",
 "note":"This paper is accepted by ICASSP2020 poster.",
